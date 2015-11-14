@@ -1,0 +1,20 @@
+body { background: #666; }
+.title {
+  background: #ccc; }
+  .title a {
+    display: block;
+    padding: 5px;
+    color: #000; }
+    .title a:hover {
+      color: red; }
+
+.title.over {
+  border: 1px dotted #eee;
+  background: #efefef; }
+  .title.over a {
+    color: blue !important; }
+
+.title * {
+  pointer-events: none; }
+
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJtYWluLmNzcyIsInNvdXJjZVJvb3QiOiIifQ==*/

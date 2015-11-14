@@ -1,0 +1,20 @@
+.title {
+	background: #ccc;
+	a {
+		display: block; padding: 5px;
+		color: #000;
+		&:hover {
+			color:red;
+		}
+	}
+}
+.title.over {
+	border: 1px dotted #eee;
+	background: #efefef;
+	a {
+		color: blue !important;
+	}
+}
+.title * {
+	pointer-events: none;
+}
