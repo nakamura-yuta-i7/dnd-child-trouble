@@ -1,0 +1,22 @@
+{
+  "name": "dnd-test",
+  "description": "",
+  "main": "",
+  "authors": [
+    "Yuta Nakamura <yuta.nakamura.i7@gmail.com>"
+  ],
+  "license": "MIT",
+  "moduleType": [],
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery-ui": "~1.11.4",
+    "jquery": "~2.1.4"
+  }
+}
